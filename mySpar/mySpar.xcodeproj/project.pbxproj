@@ -16,6 +16,9 @@
 		E91949902A88F33F00094F98 /* mySparUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E919498F2A88F33F00094F98 /* mySparUITestsLaunchTests.swift */; };
 		E919499E2A88F6DD00094F98 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E919499D2A88F6DD00094F98 /* HomePageView.swift */; };
 		E91949A02A88F96B00094F98 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E919499F2A88F96B00094F98 /* TabView.swift */; };
+		E91949A22A8904E200094F98 /* HistotyUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91949A12A8904E200094F98 /* HistotyUIView.swift */; };
+		E91949A42A89065100094F98 /* ProductSliderOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91949A32A89065100094F98 /* ProductSliderOneView.swift */; };
+		E91949A62A89085B00094F98 /* ProductSliderSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91949A52A89085B00094F98 /* ProductSliderSecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		E919498F2A88F33F00094F98 /* mySparUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySparUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E919499D2A88F6DD00094F98 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		E919499F2A88F96B00094F98 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		E91949A12A8904E200094F98 /* HistotyUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistotyUIView.swift; sourceTree = "<group>"; };
+		E91949A32A89065100094F98 /* ProductSliderOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSliderOneView.swift; sourceTree = "<group>"; };
+		E91949A52A89085B00094F98 /* ProductSliderSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSliderSecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,9 @@
 			children = (
 				E919499D2A88F6DD00094F98 /* HomePageView.swift */,
 				E919499F2A88F96B00094F98 /* TabView.swift */,
+				E91949A12A8904E200094F98 /* HistotyUIView.swift */,
+				E91949A32A89065100094F98 /* ProductSliderOneView.swift */,
+				E91949A52A89085B00094F98 /* ProductSliderSecondView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -271,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91949A22A8904E200094F98 /* HistotyUIView.swift in Sources */,
 				E91949752A88F33D00094F98 /* ContentView.swift in Sources */,
+				E91949A62A89085B00094F98 /* ProductSliderSecondView.swift in Sources */,
 				E919499E2A88F6DD00094F98 /* HomePageView.swift in Sources */,
 				E91949A02A88F96B00094F98 /* TabView.swift in Sources */,
+				E91949A42A89065100094F98 /* ProductSliderOneView.swift in Sources */,
 				E91949732A88F33D00094F98 /* mySparApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

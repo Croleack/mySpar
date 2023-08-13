@@ -20,7 +20,6 @@ struct TabView: View {
                     VStack {
                         Image(tabNames[index])
                             .resizable()
-                            .font(.system(size: 15))
                             .frame(width: 30, height: 30)
                             .background(selectedTab == index ? Color("kSecondary") : Color.white)
                             .cornerRadius(8)
