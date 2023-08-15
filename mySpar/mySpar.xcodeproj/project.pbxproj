@@ -19,6 +19,7 @@
 		E91949A22A8904E200094F98 /* HistotyUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91949A12A8904E200094F98 /* HistotyUIView.swift */; };
 		E91949A42A89065100094F98 /* ProductSliderOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91949A32A89065100094F98 /* ProductSliderOneView.swift */; };
 		E91949A62A89085B00094F98 /* ProductSliderSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91949A52A89085B00094F98 /* ProductSliderSecondView.swift */; };
+		E91949A82A890BC900094F98 /* PromotionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91949A72A890BC900094F98 /* PromotionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E91949A12A8904E200094F98 /* HistotyUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistotyUIView.swift; sourceTree = "<group>"; };
 		E91949A32A89065100094F98 /* ProductSliderOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSliderOneView.swift; sourceTree = "<group>"; };
 		E91949A52A89085B00094F98 /* ProductSliderSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSliderSecondView.swift; sourceTree = "<group>"; };
+		E91949A72A890BC900094F98 /* PromotionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				E91949A12A8904E200094F98 /* HistotyUIView.swift */,
 				E91949A32A89065100094F98 /* ProductSliderOneView.swift */,
 				E91949A52A89085B00094F98 /* ProductSliderSecondView.swift */,
+				E91949A72A890BC900094F98 /* PromotionsView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				E91949752A88F33D00094F98 /* ContentView.swift in Sources */,
 				E91949A62A89085B00094F98 /* ProductSliderSecondView.swift in Sources */,
 				E919499E2A88F6DD00094F98 /* HomePageView.swift in Sources */,
+				E91949A82A890BC900094F98 /* PromotionsView.swift in Sources */,
 				E91949A02A88F96B00094F98 /* TabView.swift in Sources */,
 				E91949A42A89065100094F98 /* ProductSliderOneView.swift in Sources */,
 				E91949732A88F33D00094F98 /* mySparApp.swift in Sources */,
@@ -453,6 +457,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,6 +487,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

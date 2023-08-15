@@ -9,11 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            
-            HomePageView()
+        ZStack(alignment: .bottom) {
+            VStack {
+
+                HomePageView()
+                ScrollView(.vertical) {
+                    VStack(spacing: 10) {
+
+                        HistotyUIView()
+                        PromotionsView()
+                        ProductSliderSecondView()
+                    }
+                }
+
+                TabView()
+            }
         }
-        .padding()
     }
 }
 

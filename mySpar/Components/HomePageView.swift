@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct HomePageView: View {
+
     @State private var location: String = ""
+    
     var body: some View {
         
         HStack{
@@ -20,10 +22,11 @@ struct HomePageView: View {
                 
                 TextField("Москва, Москва и Московская область", text: $location)
                     .font(.title3)
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
             }.padding()
-            
-            
+                .background(Color.gray.opacity(0.1))
+                .cornerRadius(30)
+                .padding()
             Button(action: {}) {
                 Image(systemName: "list.dash")
                     .imageScale(.large)
